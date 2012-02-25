@@ -1,0 +1,210 @@
+-------------- Trying to start up --------------
+Using virtualenv moksha
+[moksha.hub] INFO 2012-02-25 02:57:42,421 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 02:57:42,421 Loading Consumers
+[moksha.hub] INFO 2012-02-25 02:57:42,423 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 02:57:43,425 Loading Producers
+[moksha.hub] INFO 2012-02-25 02:57:43,445 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 02:57:43,445 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 02:57:43,445 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 02:57:43,447 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 02:57:43,447 Running the MokshaHub reactor
+Unhandled error in Deferred:
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1169, in run
+    self.mainLoop()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1178, in mainLoop
+    self.runUntilCurrent()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 800, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/task.py", line 215, in __call__
+    d = defer.maybeDeferred(self.f, *self.a, **self.kw)
+--- <exception caught here> ---
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py", line 134, in maybeDeferred
+    result = f(*args, **kw)
+  File "/home/greg/Projects/outages-moksha/project/outages/outages/streams.py", line 10, in poll
+    counter = counter + 1
+exceptions.UnboundLocalError: local variable 'counter' referenced before assignment
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 02:58:14,218 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 02:58:14,218 Loading Consumers
+[moksha.hub] INFO 2012-02-25 02:58:14,219 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 02:58:15,221 Loading Producers
+[moksha.hub] INFO 2012-02-25 02:58:15,234 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 02:58:15,235 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 02:58:15,235 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 02:58:15,239 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 02:58:15,239 Running the MokshaHub reactor
+Unhandled error in Deferred:
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1169, in run
+    self.mainLoop()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1178, in mainLoop
+    self.runUntilCurrent()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 800, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/task.py", line 215, in __call__
+    d = defer.maybeDeferred(self.f, *self.a, **self.kw)
+--- <exception caught here> ---
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py", line 134, in maybeDeferred
+    result = f(*args, **kw)
+  File "/home/greg/Projects/outages-moksha/project/outages/outages/streams.py", line 10, in poll
+    counter = counter + 1
+exceptions.UnboundLocalError: local variable 'counter' referenced before assignment
+[moksha.hub] INFO 2012-02-25 02:59:19,806 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 02:59:19,806 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 02:59:19,807 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 02:59:19,807 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 02:59:19,807 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 02:59:19,807 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:03:02,113 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:03:02,113 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:03:02,123 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:03:03,126 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:03:03,139 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:03:03,139 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:03:03,139 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:03:03,141 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:03:03,141 Running the MokshaHub reactor
+Unhandled error in Deferred:
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1169, in run
+    self.mainLoop()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 1178, in mainLoop
+    self.runUntilCurrent()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/base.py", line 800, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/task.py", line 215, in __call__
+    d = defer.maybeDeferred(self.f, *self.a, **self.kw)
+--- <exception caught here> ---
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/Twisted-12.0.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py", line 134, in maybeDeferred
+    result = f(*args, **kw)
+  File "/home/greg/Projects/outages-moksha/project/outages/outages/streams.py", line 11, in poll
+    self.send_message('stat_outages', json.dumps(dict(text=str(counter))))
+exceptions.NameError: global name 'counter' is not defined
+[moksha.hub] INFO 2012-02-25 03:03:09,739 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:03:09,739 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:03:09,740 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:03:09,740 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:03:09,740 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:03:09,740 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:03:48,678 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:03:48,678 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:03:48,679 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:03:49,681 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:03:49,696 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:03:49,696 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:03:49,697 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:03:49,699 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:03:49,699 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:03:54,085 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:03:54,085 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:03:54,086 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:03:54,086 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:03:54,087 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:03:54,087 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:05:15,357 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:05:15,358 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:05:15,360 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:05:16,362 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:05:16,366 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:05:16,367 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:05:16,367 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:05:16,368 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:05:16,368 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:05:17,597 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:05:17,598 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:05:17,598 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:05:17,599 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:05:17,599 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:05:17,599 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:07:09,474 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:07:09,474 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:07:09,478 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:07:10,480 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:07:10,485 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:07:10,486 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:07:10,486 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:07:10,487 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:07:10,487 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:07:13,719 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:07:13,719 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:07:13,720 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:07:13,720 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:07:13,720 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:07:13,720 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:07:21,678 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:07:21,678 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:07:21,678 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:07:21,679 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:07:21,679 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:07:21,679 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:09:11,947 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:09:11,947 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:09:11,948 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:09:12,950 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:09:12,955 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:09:12,955 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:09:12,956 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:09:12,957 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:09:12,957 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:09:21,992 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:09:21,992 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:09:21,993 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:09:21,994 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:09:21,994 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:09:21,995 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:11:32,569 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:11:32,569 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:11:32,570 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:11:33,572 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:11:33,577 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:11:33,577 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:11:33,578 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:11:33,579 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:11:33,579 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:11:34,967 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:11:34,967 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:11:34,968 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:11:34,968 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:11:34,969 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:11:34,969 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+[moksha.hub] INFO 2012-02-25 03:13:25,830 Loading the Moksha Hub
+[moksha.hub] INFO 2012-02-25 03:13:25,830 Loading Consumers
+[moksha.hub] INFO 2012-02-25 03:13:25,831 Binding publish socket to 'tcp://*:6543'
+[moksha.hub] INFO 2012-02-25 03:13:26,833 Loading Producers
+[moksha.hub] INFO 2012-02-25 03:13:26,841 Loading OutageStatStream producer
+[moksha.hub] DEBUG 2012-02-25 03:13:26,841 Setting a 2.0 second timer
+[moksha.hub] INFO 2012-02-25 03:13:26,842 Enabling websocket server
+[moksha.hub] INFO 2012-02-25 03:13:26,843 Websocket server set to run on port 9998
+[moksha.hub] INFO 2012-02-25 03:13:26,843 Running the MokshaHub reactor
+[moksha.hub] INFO 2012-02-25 03:13:28,368 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:13:28,368 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:13:28,369 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:13:28,369 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:13:28,370 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:13:28,370 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:26:24,429 Websocket subscribing to 'map_geojson'.
+[moksha.hub] INFO 2012-02-25 03:26:24,429 Subscribing to map_geojson on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:26:24,429 Websocket subscribing to 'stat_outages'.
+[moksha.hub] INFO 2012-02-25 03:26:24,429 Subscribing to stat_outages on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'
+[moksha.hub] INFO 2012-02-25 03:26:24,429 Websocket subscribing to 'stat_affected'.
+[moksha.hub] INFO 2012-02-25 03:26:24,430 Subscribing to stat_affected on 'ZmqEndpoint(type='connect', address='tcp://127.0.0.1:6543')'

@@ -1,0 +1,90 @@
+-------------- Trying to start up --------------
+Using virtualenv moksha
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+Traceback (most recent call last):
+  File "/home/greg/Environments/moksha-zmq/bin/orbited", line 8, in <module>
+    load_entry_point('orbited==0.7.10', 'console_scripts', 'orbited')()
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/start.py", line 103, in main
+    config.setup(options=options)
+  File "/home/greg/Environments/moksha-zmq/lib/python2.7/site-packages/orbited-0.7.10-py2.7.egg/orbited/config.py", line 79, in setup
+    _load(open(options.config, 'r'))
+IOError: [Errno 2] No such file or directory: 'orbited.cfg'

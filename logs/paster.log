@@ -1,0 +1,90 @@
+-------------- Trying to start up --------------
+Using virtualenv moksha
+02:57:42,289 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+02:57:42,906 INFO  [moksha.middleware.middleware] Loading moksha widgets
+02:57:42,906 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+02:57:42,906 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+02:57:42,926 INFO  [moksha.middleware.middleware] Loading code_widget widget
+02:57:42,933 INFO  [moksha.middleware.middleware] Loading moksha applications
+02:57:42,934 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+02:57:42,934 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+02:58:14,337 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+02:58:14,953 INFO  [moksha.middleware.middleware] Loading moksha widgets
+02:58:14,953 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+02:58:14,954 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+02:58:14,975 INFO  [moksha.middleware.middleware] Loading code_widget widget
+02:58:14,982 INFO  [moksha.middleware.middleware] Loading moksha applications
+02:58:14,982 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+02:58:14,982 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:03:01,859 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:03:02,573 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:03:02,573 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:03:02,574 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:03:02,594 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:03:02,601 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:03:02,601 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:03:02,602 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:03:48,390 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:03:49,037 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:03:49,037 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:03:49,037 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:03:49,058 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:03:49,065 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:03:49,065 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:03:49,066 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:05:15,285 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:05:15,916 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:05:15,916 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:05:15,916 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:05:15,937 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:05:15,944 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:05:15,945 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:05:15,945 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:07:09,384 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:07:10,028 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:07:10,028 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:07:10,028 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:07:10,050 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:07:10,057 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:07:10,057 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:07:10,057 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:09:11,518 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:09:12,266 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:09:12,266 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:09:12,266 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:09:12,288 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:09:12,295 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:09:12,296 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:09:12,296 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:11:32,449 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:11:33,125 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:11:33,125 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:11:33,125 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:11:33,148 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:11:33,155 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:11:33,156 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:11:33,156 INFO  [moksha.middleware.middleware] Loading moksha menus
+-------------- Trying to start up --------------
+Using virtualenv moksha-zmq
+03:13:25,575 INFO  [moksha.middleware.middleware] Creating Moksha Middleware
+03:13:26,252 INFO  [moksha.middleware.middleware] Loading moksha widgets
+03:13:26,252 INFO  [moksha.middleware.middleware] Preparing for tw2 widgets
+03:13:26,252 INFO  [moksha.middleware.middleware] Loading moksha_socket widget
+03:13:26,276 INFO  [moksha.middleware.middleware] Loading code_widget widget
+03:13:26,283 INFO  [moksha.middleware.middleware] Loading moksha applications
+03:13:26,284 INFO  [moksha.middleware.middleware] Loading moksha WSGI applications
+03:13:26,284 INFO  [moksha.middleware.middleware] Loading moksha menus
